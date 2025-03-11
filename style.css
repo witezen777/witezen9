@@ -1,0 +1,42 @@
+body {
+    background: url('https://source.unsplash.com/1600x900/?technology,code') no-repeat center center/cover;
+    background-color: blueviolet;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    background: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 50px auto;
+    width: 80%;
+    max-width: 600px;
+}
+.course-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.course-btn, .login-btn {
+    display: block;
+    padding: 15px;
+    background: #008CBA;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.3s;
+    text-align: center;
+}
+.course-btn:hover, .login-btn:hover {
+    background: #005f73;
+}
+.login-btn {
+    margin-top: 20px;
+    background: #f04e30;
+}
+.login-btn:hover {
+    background: #c03d25;
+}
